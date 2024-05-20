@@ -58,7 +58,6 @@ const Home = () => {
     setProducts(products.filter(product => product.id !== id));
     toast.error(deletedProduct.title + " deleted");
   };
-  
 
 
   return (<>
