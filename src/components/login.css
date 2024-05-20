@@ -1,0 +1,44 @@
+/* Login page layout */
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    background-image: url('https://images.pexels.com/photos/3056056/pexels-photo-3056056.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-color: white;
+    background-size: cover;
+  }
+  
+  .right-section {
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+  }
+  
+  /* Login card styles */
+  .login-card {
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-card input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .login-card .btn {
+    width: 100%;
+  }
+  

@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+ 
+  text-align: center;
+  font-family: monospace;
+  background-color: hsl(0, 10%, 8%);
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.header {
+  background-color: #343a40;
+  padding: 1rem;
+}
+
+.header .logo h1 {
+  margin: 0;
+}
+
+.header .nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav-item {
+  margin: 0 1rem;
+}
+
+.header .nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .nav-item a:hover {
+  text-decoration: underline;
+}
+h1{
+  font-family:  sans-serif;
+  color: #ececec;   
+}
