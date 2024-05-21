@@ -63,7 +63,7 @@ const Home = () => {
   return (<>
   <Header/> 
     <Container >  <ToastContainer />
-      <h2 className='text text-light p-2 mb-4'>Products</h2>
+      <h2 className='text text-light p-4 mb-4'>Products</h2>
       <Grid container spacing={4}>
         {products.map((product) => (
           <Grid item key={product.id} xs={12} sm={6} md={4}>
@@ -84,7 +84,7 @@ const Home = () => {
                 <Typography className="body2" color="text.secondary">
                   {product.description}
                 </Typography>
-                <i onClick={() => handleDelete(product.id)} className="fa-solid fa-trash" title='Delete Product'></i>                
+                <i onClick={() => handleDelete(product.id)} className="fa-solid fa-trash" title='Delete Product'></i>              
               </CardContent>
             </Card>
           </Grid>

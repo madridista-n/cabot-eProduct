@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './login.css'; // Import CSS file for login page styles
+import './login.css'; 
 
 const Login = () => {
   const navigate = useNavigate();

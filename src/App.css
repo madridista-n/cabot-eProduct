@@ -12,10 +12,10 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #191717;
 }
 .header {
-  background-color: #343a40;
+  background-color: rgb(237, 237, 237);
   padding: 1rem;
 }
 
@@ -34,14 +34,8 @@
 }
 
 .header .nav-item a {
-  color: white;
-  text-decoration: none;
+  color: rgb(0, 0, 0);
+
 }
 
-.header .nav-item a:hover {
-  text-decoration: underline;
-}
-h1{
-  font-family:  sans-serif;
-  color: #ececec;   
-}
+
